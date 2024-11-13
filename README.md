@@ -66,8 +66,8 @@ This project is a hotel booking application developed using the MERN stack (Mong
 4. **Environment Variables**:
    - In the `/server` directory, create a `.env` file and add the following:
      ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret_key
+   MONGO = mongodb+srv://dev:dev@cluster0.capsjox.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+   JWT = 8hEnPGeoBqGUT6zksxt4G95gW+uMdzwe7EVaRnp0xRI=
      PORT=5000
      ```
    - In the `/client` directory, create a `.env` file and add any frontend environment variables if required.
