@@ -77,10 +77,6 @@ This project is a hotel booking application developed using the MERN stack (Mong
 - **Payment System**: No payment system is integrated in this version; future updates may include Stripe or PayPal.
 - **Admin Role**: Admins have exclusive rights to manage hotels and view all bookings, whereas users can only manage their own bookings.
 
-## Project Structure
-hotel-booking-app/ ├── client/ # React frontend │ ├── public/ │ ├── src/ │ └── package.json ├── server/ # Express backend │ ├── config/ # Config files, e.g., database setup │ ├── controllers/ # Request handlers for different routes │ ├── models/ # MongoDB models for Users, Hotels, and Bookings │ ├── routes/ # API endpoints │ └── server.js # Entry point for the server └── README.md
-
-
 ## Setup Instructions
 
 ### Prerequisites
