@@ -1,46 +1,5 @@
 
-# Hotel Booking Application
 
-## Overview
-This project is a hotel booking application developed using the MERN stack (MongoDB, Express, React, and Node.js). The application allows users to search for hotels, view details, and book rooms. It includes a responsive user interface and integrates a backend API for managing bookings, user data, and hotel information.
-
-## Features
-### User Interface
-- **Homepage**: Displays popular hotels and destinations.
-- **Hotel Search**: Users can search hotels by location, check-in/check-out dates, and guest count.
-- **Hotel Details Page**: Provides information about each hotel, including room types, amenities, and availability.
-- **User Dashboard**: Users can view and manage their bookings.
-
-### Booking Management
-- **Room Booking**: Users can book available rooms by selecting check-in/check-out dates and confirming guest information.
-- **Booking History**: Registered users can view their past bookings.
-
-### User Authentication
-- **Sign Up/Login**: Secure authentication system with JWT for session management.
-- **Profile Management**: Users can update personal information and view booking history.
-
-### Admin Features
-- **Hotel Management**: Admins can add, edit, or remove hotels and rooms.
-- **Booking Management**: Admins can view all bookings, including user details and booking dates.
-
-## Technology Stack
-- **Frontend**: React, Redux, Bootstrap
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Token)
-
-## Assumptions and Design Choices
-- **Booking Flow**: Only authenticated users can make bookings. Guest users can browse hotels but need to register to complete a booking.
-- **Data Storage**: MongoDB is used to store user information, hotel details, and booking data.
-- **Payment System**: No payment system is integrated in this version; future updates may include Stripe or PayPal.
-- **Admin Role**: Admins have exclusive rights to manage hotels and view all bookings, whereas users can only manage their own bookings.
-
-## Project Structure
-
-Here’s a README.md template for a hotel booking application built with the MERN stack (MongoDB, Express, React, Node.js):
-
-markdown
-Copy code
 # Hotel Booking Application
 
 ## Overview
